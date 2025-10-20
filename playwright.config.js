@@ -200,11 +200,13 @@ const config = ({
   reporter:'html',
   use:{
     browserName: 'chromium',
-    headless:false,
-    // screenshot:'on',
-    // trace:'on',
+    headless:true,
+    //screenshot:'on',
+    trace:'on',
+    //video:"on"
 
   },
+  timeout:2000,
   // // use:{
   // //   browserName: 'webkit',
   // //   headless:false,
