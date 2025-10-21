@@ -6,7 +6,7 @@ test.only("Home Page Test",async ({page})=>{
 
     //Login
     await page.locator('a#login2').click();
-    await page.waitForTimeout(3000);
+    await page.waitForTimeout(5000);
 
     await page.locator('#loginusername').fill("T0049");
 

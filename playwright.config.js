@@ -206,7 +206,7 @@ const config = ({
     //video:"on"
 
   },
-  timeout:2000,
+  
   // // use:{
   // //   browserName: 'webkit',
   // //   headless:false,
