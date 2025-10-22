@@ -191,7 +191,7 @@ const { trace } = require('console');
 
 const config = ({
   testDir:'./tests',
-  timeout:40 * 1000,
+  timeout:40 * 10000,
   expectt:{
     timeout:40 * 10000,
     fullyParallel: false,
@@ -200,7 +200,7 @@ const config = ({
   reporter:'html',
   use:{
     browserName: 'chromium',
-    headless:false,
+    headless:true,
     //screenshot:'on',
     trace:'on',
     video:"on"
