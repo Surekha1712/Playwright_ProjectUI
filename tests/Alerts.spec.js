@@ -1,6 +1,6 @@
 const  {test, expect} = require('@playwright/test');
 
-test.skip('Alerts', async ({page}) => {
+test('Alerts', async ({page}) => {
     await page.goto("https://testautomationpractice.blogspot.com/");
 
     //Enabling dialog window to handel alert
@@ -15,7 +15,7 @@ test.skip('Alerts', async ({page}) => {
 
 });
 
-test.skip('Confiramation dialog alert with ok and cancel', async ({page}) => {
+test('Confiramation dialog alert with ok and cancel', async ({page}) => {
     await page.goto("https://testautomationpractice.blogspot.com/");
 
     //Enabling dialog window to handel alert
