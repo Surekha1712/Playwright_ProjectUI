@@ -203,6 +203,8 @@ const config = ({
            ['json',{outputFile:'results.json'}],
            ['allure-playwright',{outputFolder:'allure-results'}]],
 //retries:1,
+testDir: './tests',
+fullyParallel:true,
   use:{
     browserName: 'chromium',
     headless: true,
