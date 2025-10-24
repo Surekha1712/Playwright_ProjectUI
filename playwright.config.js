@@ -131,7 +131,7 @@
 //   /* Opt out of parallel tests on CI. */
 //   workers: process.env.CI ? 1 : undefined,
 //   /* Reporter to use. See https://playwright.dev/docs/test-reporters */
-//   reporter: 'html',
+ //  reporter: 'list',
 //   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
 //   use: {
 //     /* Base URL to use in actions like `await page.goto('/')`. */
@@ -192,15 +192,20 @@ const { trace } = require('console');
 const config = ({
   testDir:'./tests',
   timeout:40 * 10000,
-  expectt:{
+  expect:{
     timeout:40 * 10000,
     fullyParallel: false,
 
   },
-  reporter:'html',
+  reporter:[['list'],
+  ['html'],
+  ['junit',{outputFile:'results.xml'}],
+           ['json',{outputFile:'results.json'}],
+           ['allure-playwright',{outputFolder:'allure-results'}]],
+//retries:1,
   use:{
     browserName: 'chromium',
-    headless:true,
+    headless: false,
     //screenshot:'on',
     trace:'on',
     video:"on"

@@ -1,0 +1,4 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","1916","Test2","","Thu Oct 23 12:30:28 IST 2025","passed","Thu Oct 23 12:30:30 IST 2025","","Reporters.spec.js","",""
+"","6829","Test3","","Thu Oct 23 12:30:30 IST 2025","passed","Thu Oct 23 12:30:37 IST 2025","","Reporters.spec.js","",""
+"","4109","Test1","","Thu Oct 23 12:30:23 IST 2025","passed","Thu Oct 23 12:30:27 IST 2025","","Reporters.spec.js","",""

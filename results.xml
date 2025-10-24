@@ -1,0 +1,14 @@
+<testsuites id="" name="" tests="1" failures="0" skipped="0" errors="0" time="20.099884000000003">
+<testsuite name="RetryTest.spec.js" timestamp="2025-10-24T05:28:24.620Z" hostname="" tests="1" failures="0" skipped="0" time="17.978" errors="0">
+<testcase name="Page Object Model" classname="RetryTest.spec.js" time="17.978">
+<system-out>
+<![CDATA[HTC One M9
+
+[[ATTACHMENT|test-results\RetryTest-Page-Object-Model\video.webm]]
+
+[[ATTACHMENT|test-results\RetryTest-Page-Object-Model\trace.zip]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+</testsuites>
