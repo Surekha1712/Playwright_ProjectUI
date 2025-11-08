@@ -24,8 +24,4 @@ test('Page Object Model',async ({page})=>{
    const status=await cart.checkProductInCart('HTC One M9');
    expect (await status).toBe(true);
 
-
-
-    
-
 })
