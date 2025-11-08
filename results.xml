@@ -1,29 +1,12 @@
-<testsuites id="" name="" tests="3" failures="0" skipped="0" errors="0" time="11.892177000000002">
-<testsuite name="Alerts.spec.js" timestamp="2025-11-04T06:15:20.914Z" hostname="" tests="3" failures="0" skipped="0" time="29.939" errors="0">
-<testcase name="Alerts" classname="Alerts.spec.js" time="9.681">
+<testsuites id="" name="" tests="1" failures="0" skipped="0" errors="0" time="20.430322">
+<testsuite name="POM.spec.js" timestamp="2025-11-08T11:17:47.895Z" hostname="" tests="1" failures="0" skipped="0" time="18.762" errors="0">
+<testcase name="Page Object Model" classname="POM.spec.js" time="18.762">
 <system-out>
-<![CDATA[
-[[ATTACHMENT|test-results\Alerts-Alerts\video.webm]]
+<![CDATA[HTC One M9
 
-[[ATTACHMENT|test-results\Alerts-Alerts\trace.zip]]
-]]>
-</system-out>
-</testcase>
-<testcase name="Confiramation dialog alert with ok and cancel" classname="Alerts.spec.js" time="10.521">
-<system-out>
-<![CDATA[
-[[ATTACHMENT|test-results\Alerts-Confiramation-dialog-alert-with-ok-and-cancel\video.webm]]
+[[ATTACHMENT|test-results\POM-Page-Object-Model\video.webm]]
 
-[[ATTACHMENT|test-results\Alerts-Confiramation-dialog-alert-with-ok-and-cancel\trace.zip]]
-]]>
-</system-out>
-</testcase>
-<testcase name="Prompt dialog alert with ok and cancel" classname="Alerts.spec.js" time="9.737">
-<system-out>
-<![CDATA[
-[[ATTACHMENT|test-results\Alerts-Prompt-dialog-alert-with-ok-and-cancel\video.webm]]
-
-[[ATTACHMENT|test-results\Alerts-Prompt-dialog-alert-with-ok-and-cancel\trace.zip]]
+[[ATTACHMENT|test-results\POM-Page-Object-Model\trace.zip]]
 ]]>
 </system-out>
 </testcase>
