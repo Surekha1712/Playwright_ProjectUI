@@ -1,6 +1,6 @@
-<testsuites id="" name="" tests="1" failures="0" skipped="0" errors="0" time="20.430322">
-<testsuite name="POM.spec.js" timestamp="2025-11-08T11:17:47.895Z" hostname="" tests="1" failures="0" skipped="0" time="18.762" errors="0">
-<testcase name="Page Object Model" classname="POM.spec.js" time="18.762">
+<testsuites id="" name="" tests="1" failures="0" skipped="0" errors="0" time="25.202005999999994">
+<testsuite name="POM.spec.js" timestamp="2025-11-24T11:23:30.665Z" hostname="" tests="1" failures="0" skipped="0" time="21.053" errors="0">
+<testcase name="Page Object Model" classname="POM.spec.js" time="21.053">
 <system-out>
 <![CDATA[HTC One M9
 
